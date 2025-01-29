@@ -1,0 +1,39 @@
+*{
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+h1{
+  text-align:center;
+  font-size: 28px;
+  margin-bottom: 5%;
+  
+
+}
+
+#destaque{
+    color: rgb(220, 148, 14);
+    padding: 0.5%;
+}
+
+p{
+    margin-top: 15px;
+    padding: 0.5%;
+    margin-top: 15px;
+}
+
+.pixels {
+    font: 50px verdana, arial, tahoma, sans-serif;
+}
+
+.tipogtrafia{
+    font: 1.25em verdana,arial,tahoma, sans-serif;
+}
+.div{
+    font-size: 2em;
+}
+
+
