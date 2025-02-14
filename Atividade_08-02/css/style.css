@@ -46,9 +46,9 @@ button {
 
 :root {
    
-   color-scheme: #f58634;
+   color-scheme: #e97828;
    stop-color: #f5f5f5;
-   --color-primary: #f58634;
+   --color-primary: #ca5b0b;
    background-color: #f5f5f5;
    font-family: Arial, Helvetica, sans-serif;
    padding-bottom: 0.6rem;
@@ -98,10 +98,10 @@ nav ul li a:hover, #registro a:hover {
     text-align: center;
     background-color: var(--color-primary);
     border-radius: var(--border-radius);
-    margin: 1rem auto;
+    margin: auto;
     padding: 1rem;
     max-width: 600px;
-    margin-left: 1rem;
+    margin-left: auto;
 }
 
 #financas {
@@ -241,8 +241,8 @@ nav ul li a:hover, #registro a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    background-color: var(--cor-background);
-    color: #ffffff;
+    background-color: var(--color-primary);
+    color: #f58634;
     padding: 2rem;
     margin-top: auto;
 }
@@ -251,10 +251,10 @@ nav ul li a:hover, #registro a:hover {
     flex: 1;
     min-width: 300px;
     color: #e0e0e0;
-}
+}   
 
 .footer-copy {
-    text-align: center;
+  text-align: center;
     padding: 1rem;
     background-color: var(--cor-background);
     color: #e0e0e0;
@@ -265,4 +265,5 @@ nav ul li a:hover, #registro a:hover {
 footer {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
